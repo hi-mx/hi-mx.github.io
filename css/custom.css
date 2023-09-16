@@ -607,27 +607,6 @@ i:hover {
   cursor:url(https://cdn.jsdelivr.net/gh/caibhh/CDN/img/blog/pointer.cur), auto
 }
 
-/*页脚部分*/
-#footer {
-  background: rgba(255, 255, 255, .15);
-  color: #000;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  backdrop-filter: saturate(100%) blur(5px)
-}
-
-#footer::before {
-  background: rgba(255, 255, 255, .15)
-}
-
-#footer #footer-wrap {
-  color: var(--font-color)
-}
-
-#footer #footer-wrap a {
-  color: var(--font-color)
-}
-
 
 /*字体*/
 @font-face {
@@ -808,3 +787,4 @@ p.top {
 span.page-number.current {
   border-radius: 8px;
 }
+
