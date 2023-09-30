@@ -811,3 +811,88 @@ span.page-number.current {
 #footer #footer-wrap a {
   color: var(--font-color)
 }
+
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel {
+  margin: 0 0 45px 65px!important;
+
+  background: rgba(111, 126, 136, 0.5)!important;
+  color: rgb(255, 255, 255)!important;
+  text-shadow: rgb(82, 96, 104) 1px 1px 5px!important;
+  padding: 0.8em 1.2em 0.4em 1.2em!important;
+
+  box-shadow: 1px 3px 4px rgb(0 0 0 / 10%)!important;
+
+  font-size: 14px!important;
+
+  font-weight: regular;
+}
+
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:hover {
+  background: rgba(111, 126, 136, 0.8)!important;
+  box-shadow: 1px 3px 4px rgb(0 0 0 / 30%)!important;
+}
+#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
+  background: rgb(111, 126, 136, 0.5)!important;
+}
+#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:hover {
+  background: rgba(111, 126, 136, 0.8)!important;
+}
+
+#artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
+  border-right-color: rgb(111, 126, 136, 0.5)!important;
+}
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:after {
+  border-right-color: rgb(111, 126, 136, 0.5)!important;
+}
+
+#operare_artitalk .at_button, #artitalk_main .at_button {
+  background-color: rgb(29, 155, 240)!important;
+  box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px!important;
+  border: none;
+  margin-left: 5px;
+  color: white;
+  padding-top: 12px!important;
+  padding-bottom: 12px!important;
+  padding-left: 32px!important;
+  padding-right: 32px!important;
+  text-align: center;
+  text-decoration: none;
+  height: auto;
+  line-height: 20px;
+  display: inline-block;
+  font-size: 16px!important;
+  /*font-weight:bold!important;*/
+  border-bottom-left-radius: 9999px!important;
+  border-bottom-right-radius: 9999px!important;
+  border-top-left-radius: 9999px!important;
+  border-top-right-radius: 9999px!important;
+  outline: none;
+  cursor: pointer;
+}
+
+#operare_artitalk .at_button, #artitalk_main .at_button:hover {
+  background-color: rgb(26, 140, 216)!important;
+}
+/*
+#artitalk_main .cbp_tmtimeline>li .cbp_tmlabel::before {
+  content: 'Mingxin Lv';
+  color: #333;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+*/
+#aside-content .card-info #card-info-btn {
+  border-bottom-left-radius: 9999px!important;
+  border-bottom-right-radius: 9999px!important;
+  border-top-left-radius: 9999px!important;
+  border-top-right-radius: 9999px!important;
+  background-color: rgb(29, 155, 240)!important;
+}
+#aside-content .card-info #card-info-btn:hover {
+  background-color: rgb(26, 140, 216)!important;
+}
+
+#page-header #scroll-down {
+  z-index: 999;
+}
