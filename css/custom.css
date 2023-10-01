@@ -814,35 +814,38 @@ span.page-number.current {
 
 #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel {
   margin: 0 0 45px 65px!important;
-
-  background: rgba(111, 126, 136, 0.5)!important;
-  color: rgb(255, 255, 255)!important;
-  text-shadow: rgb(82, 96, 104) 1px 1px 5px!important;
+  /*text-shadow: rgb(82, 96, 104) 1px 1px 5px!important;*/
   padding: 0.8em 1.2em 0.4em 1.2em!important;
 
-  box-shadow: 1px 3px 4px rgb(0 0 0 / 10%)!important;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 10%)!important;
 
-  font-size: 14px!important;
+  font-size: 16px!important;
 
   font-weight: regular;
+  background: var(--global-bg)!important;
+  color: var(--font-color)!important;
+
 }
 
 #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:hover {
-  background: rgba(111, 126, 136, 0.8)!important;
-  box-shadow: 1px 3px 4px rgb(0 0 0 / 30%)!important;
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 30%)!important;
+  background: var(--global-bg)!important;
+  color: var(--font-color)!important;
 }
 #artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
-  background: rgb(111, 126, 136, 0.5)!important;
+  background: var(--global-bg)!important;
+  color: var(--font-color)!important;
 }
 #artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:hover {
-  background: rgba(111, 126, 136, 0.8)!important;
+  background: var(--global-bg)!important;
+  color: var(--font-color)!important;
 }
 
 #artitalk_main .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
-  border-right-color: rgb(111, 126, 136, 0.5)!important;
+  border-right-color: rgba(40, 40, 40, 0.05)!important;
 }
 #artitalk_main .cbp_tmtimeline>li .cbp_tmlabel:after {
-  border-right-color: rgb(111, 126, 136, 0.5)!important;
+  border-right-color: rgba(40, 40, 40, 0.05)!important;
 }
 
 #operare_artitalk .at_button, #artitalk_main .at_button {
@@ -869,6 +872,7 @@ span.page-number.current {
   outline: none;
   cursor: pointer;
 }
+
 
 #operare_artitalk .at_button, #artitalk_main .at_button:hover {
   background-color: rgb(26, 140, 216)!important;
